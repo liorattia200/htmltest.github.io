@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>דף HTML לדוגמא</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 20px;
+        background-color: #f4f4f4;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        background: white;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      h1 {
+        color: #2c3e50;
+        text-align: center;
+        border-bottom: 2px solid #3498db;
+        padding-bottom: 10px;
+      }
+
+      h2 {
+        color: #3498db;
+      }
+
+      .highlight {
+        background-color: #fffacd;
+        padding: 10px;
+        border-right: 3px solid #ffeb3b;
+        margin: 10px 0;
+      }
+
+      .button {
+        background-color: #3498db;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+
+      .button:hover {
+        background-color: #2980b9;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+      }
+
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 12px;
+        text-align: right;
+      }
+
+      th {
+        background-color: #3498db;
+        color: white;
+      }
+
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>ברוכים הבאים לדף HTML לדוגמא</h1>
+      </header>
+
+      <main>
+        <section>
+          <h2>פסקת מבוא</h2>
+          <p>זהו דף HTML בסיסי שמדגים את המבנה והתגים הנפוצים ביותר.</p>
+          <p>הדף כתוב בעברית ותומך בכיוון מימין לשמאל (RTL).</p>
+        </section>
+
+        <section>
+          <h2>תכונות מיוחדות</h2>
+          <div class="highlight">
+            <strong>הדגשה:</strong> זהו אזור מודגש עם עיצוב מיוחד.
+          </div>
+
+          <button class="button" onclick="alert('לחצת על הכפתור!')">
+            לחץ כאן
+          </button>
+        </section>
+
+        <section>
+          <h2>טבלת דוגמא</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>שם</th>
+                <th>גיל</th>
+                <th>עיר</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>דנה</td>
+                <td>25</td>
+                <td>תל אביב</td>
+              </tr>
+              <tr>
+                <td>יוסי</td>
+                <td>30</td>
+                <td>ירושלים</td>
+              </tr>
+              <tr>
+                <td>מיכל</td>
+                <td>28</td>
+                <td>חיפה</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section>
+          <h2>רשימות</h2>
+          <h3>רשימה מסודרת:</h3>
+          <ol>
+            <li>פריט ראשון</li>
+            <li>פריט שני</li>
+            <li>פריט שלישי</li>
+          </ol>
+
+          <h3>רשימה לא מסודרת:</h3>
+          <ul>
+            <li>פריט אחד</li>
+            <li>פריט שני</li>
+            <li>פריט שלישי</li>
+          </ul>
+        </section>
+      </main>
+
+      <footer>
+        <p style="text-align: center; color: #7f8c8d; margin-top: 30px">
+          &copy; 2024 דף דוגמא. כל הזכויות שמורות.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
